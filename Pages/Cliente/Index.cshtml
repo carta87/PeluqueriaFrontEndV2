@@ -1,0 +1,96 @@
+@page
+@model PeluqueiaStar.Pages_Cliente.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista Clientes</h1>
+
+<p>
+    <a class="btn btn-primary" asp-page="Create"><i class="bi bi-journal-text"></i> Crear Clientes </a>
+</p>
+
+<div class="card-body">
+    <div class="table-responsive">
+        <table class="table table-striped table-hover table-bordered">
+            <thead style="text-align: center;">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].Nombre)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].Apellidos)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].Celular)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].Dirrecion)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].Edad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].Genero)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].EstadoSalud)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].Membresia)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cliente[0].CantidadCitas)
+                    </th>
+                    <th><strong>Opciones</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Cliente)
+                {
+                    <tr style="text-align: center;">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Apellidos)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Celular)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Dirrecion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Edad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Genero)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EstadoSalud)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Membresia)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CantidadCitas)
+                        </td>
+                        <td>
+                            <a class="btn btn-success" asp-page="./Edit" asp-route-id="@item.Id" ><i class="bi bi-pencil"></i>Editar</a>
+                            <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@item.Id" ><i class="bi bi-journal-text"></i>Detalles</a>
+                            <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.Id" ><i class="bi bi-trash"></i>Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

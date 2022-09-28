@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <br>
+    <strong><font face="Comic Sans MS,arial" style="color:indigo" size="6" >Bienvenidos peluqueria Star</font></strong>
+</div>
+<p></p>
+
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-6 text-center" style="display:inline-block;">
+        <br><br>
+        <p><i>Somos un equipo de profesionales de la belleza, de emprendedores, de soñadores,
+                de amantes de la tecnología, de intrépidos, de curiosos. </i></p>
+        <p><i>Aspiramos a mejorar la vida de las personas llevando la inspiración y la belleza
+                a todo el mundo. Si tu también sueñas, únete a nosotros.</i></p>
+
+    </div>
+    <div class="col-1"></div>
+    <div class="col-4">
+        <img src="img/imagenHome.jpg" alt="Nuestro personal" width="300">
+    </div>
+</div><br>
+
+<div class="row">
+   <div class="col-8 text-center" >
+    <font size=7  face="arial" color="porpure" >10% </font> Descuento cuando cumplas el quinto servicio solicitado
+   </div>
+   <div class="col-3 text-center">
+    <form action="HorarioEstelista/Index">
+      <button type="submit" class="btn btn-primary">Solicitar Cita</button>
+    </form>
+   </div>
+   <div class="col-1"></div>
+</div>
+

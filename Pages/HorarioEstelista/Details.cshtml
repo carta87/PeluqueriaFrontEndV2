@@ -1,0 +1,36 @@
+@page
+@model PeluqueiaStar.Pages_HorarioEstelista.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalles Horario Estelista</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HorarioEstelista.Disponibilidad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HorarioEstelista.Disponibilidad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HorarioEstelista.Fecha)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HorarioEstelista.Fecha)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HorarioEstelista.Horario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HorarioEstelista.Horario)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.HorarioEstelista?.Id">Editar</a> |
+    <a asp-page="./Index">Lista Princicpal</a>
+</div>

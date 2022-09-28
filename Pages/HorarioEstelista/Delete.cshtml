@@ -1,0 +1,39 @@
+@page
+@model PeluqueiaStar.Pages_HorarioEstelista.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Eliminar Horario Estelista</h1>
+
+<h3>Valide los Datos</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HorarioEstelista.Disponibilidad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HorarioEstelista.Disponibilidad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HorarioEstelista.Fecha)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HorarioEstelista.Fecha)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HorarioEstelista.Horario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HorarioEstelista.Horario)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="HorarioEstelista.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Lista Princicpal</a>
+    </form>
+</div>
