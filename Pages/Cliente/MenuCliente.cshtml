@@ -10,7 +10,7 @@
     var identidadUsuario = UserManager.GetUserName(User);
     foreach (var item in Model.Cliente)
     {
-        if ( identidadUsuario == item.Email)
+        if (identidadUsuario == item.Email)
         {
             activar = true;
         }
@@ -71,48 +71,48 @@
                         @if (item.Email == @identidadUsuario)
                         {
                             <tr style="text-align: center;">
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Nombre)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Apellidos)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Email)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Celular)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Dirrecion)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Edad)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Genero)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.EstadoSalud)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Membresia)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.CantidadCitas)
-                            </td>
-                            <td>
-                                <a class="btn btn-success" asp-page="./Edit" asp-route-id="@item.Id"><i
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Nombre)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Apellidos)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Email)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Celular)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Dirrecion)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Edad)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Genero)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.EstadoSalud)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Membresia)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CantidadCitas)
+                                </td>
+                                <td>
+                                    <a class="btn btn-success" asp-page="./Edit" asp-route-id="@item.Id"><i
                                 class="bi bi-pencil"></i>Editar</a>
-                                <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@item.Id"><i
+                                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@item.Id"><i
                                 class="bi bi-journal-text"></i>Detalles</a>
-                                <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.Id"><i
+                                    <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.Id"><i
                                 class="bi bi-trash"></i>Eliminar</a>
-                            </td>
-                        </tr>
-                            
+                                </td>
+                            </tr>
+
                         }
-                        
+
                     }
                 </tbody>
             </table>
@@ -120,24 +120,33 @@
     </div>
 
 }
+
 else
 {
 
-    <div>
+    <div class="text-center">
         <br>
         <strong>
             <font face="Comic Sans MS,arial" style="color:indigo" size="6">Bienvenido</font>
         </strong>
         <br>
     </div>
-    <br><br>
+    
 
-    <div class="col-8 text-center" style="display:inline-block;">
+    <div class="text-center">
+        <img src="/img/clientes general.jpg" alt="" width="600px">
+    </div>
+
+    <div class="col-12 text-center" style="display:inline-block;">
         <br><br>
-        <p><i> Has ingresado a la aplicacion pero estas aun paso de terminar el registro, ingresa dando
-                click en el botton Continuar registro</i></p><br>
+        
+        <p><i> Al registrarte podras acceder escoger tu cita en el horario que desees, escoger el estilista de tu preferencia
+              y finalmente especificar cual servicio deseas para tu cita. </i></p><br>
+        <p><i>  Ingresa dando click en el botton!!!</i></p><br>
+       <!-- <p><i> Has ingresado a la aplicacion pero estas aun paso de terminar el registro, ingresa dando
+                click en el botton Continuar registro</i></p><br>-->
         <p>
-            <a class="btn btn-primary" asp-page="Create"><i class="bi bi-journal-text"></i> Continuar con el registro </a>
+            <a class="btn btn-primary" asp-page="Create"><i class="bi bi-journal-text"></i> Crear Usuario</a>
         </p>
     </div>
 

@@ -8,225 +8,225 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PeluqueiaStar
 build_property.RootNamespace = PeluqueiaStar
-build_property.ProjectDir = c:\Users\USUARIO\Documents\MisionTic\MisionTic ciclo3\proyecto equipo\PeluqueriaStarFrontEndV2\PeluqueiaStar\
+build_property.ProjectDir = C:\Users\USUARIO\Documents\MisionTic\MisionTic ciclo3\proyecto equipo\PeluqueriaStarFrontEndV2\PeluqueiaStar\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\USUARIO\Documents\MisionTic\MisionTic ciclo3\proyecto equipo\PeluqueriaStarFrontEndV2\PeluqueiaStar
+build_property.MSBuildProjectDirectory = C:\Users\USUARIO\Documents\MisionTic\MisionTic ciclo3\proyecto equipo\PeluqueriaStarFrontEndV2\PeluqueiaStar
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Create.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Delete.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Details.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Edit.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Index.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/MenuAdministrador.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Administrador/MenuAdministrador.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclxNZW51QWRtaW5pc3RyYWRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Create.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Delete.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Details.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Edit.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Index.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/MenuCliente.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Cliente/MenuCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZVxNZW51Q2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Error.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Create.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0ZWxpc3RhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Delete.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0ZWxpc3RhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Details.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0ZWxpc3RhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Edit.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0ZWxpc3RhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Index.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0ZWxpc3RhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/MenuEstilista.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Estelista/MenuEstilista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0ZWxpc3RhXE1lbnVFc3RpbGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Create.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb0VzdGVsaXN0YVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Delete.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb0VzdGVsaXN0YVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Details.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb0VzdGVsaXN0YVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Edit.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb0VzdGVsaXN0YVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Index.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb0VzdGVsaXN0YVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/MenuHorarios.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/HorarioEstelista/MenuHorarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb0VzdGVsaXN0YVxNZW51SG9yYXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Index.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Create.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Delete.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Details.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Edit.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Index.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Persona/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Privacy.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Create.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Delete.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Details.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Edit.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Index.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/MenuServicos.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/MenuServicos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxNZW51U2Vydmljb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/ServiciosCaballero.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/ServiciosCaballero.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxTZXJ2aWNpb3NDYWJhbGxlcm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/ServiciosDama.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/ServiciosDama.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxTZXJ2aWNpb3NEYW1hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/ServiciosKids.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/ServiciosOfrecer/ServiciosKids.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zT2ZyZWNlclxTZXJ2aWNpb3NLaWRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/_ViewImports.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/_ViewStart.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Shared/_Layout.cshtml]
+[C:/Users/USUARIO/Documents/MisionTic/MisionTic ciclo3/proyecto equipo/PeluqueriaStarFrontEndV2/PeluqueiaStar/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hzvesl3a60
