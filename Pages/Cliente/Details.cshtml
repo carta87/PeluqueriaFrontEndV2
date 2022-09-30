@@ -5,7 +5,15 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Detalles Cliente</h1>
+<div >
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="6">Detalles Cliente</font>
+    </strong>
+    <br>
+   
+</div><br><br>
+
 
 <div>
     <hr />
@@ -79,6 +87,6 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Cliente?.Id">Editar</a> |
-    <a asp-page="./Index">Lista Princicpal</a>
+    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Model.Cliente?.Id">Editar</a> |
+    <a class="btn btn-success" asp-page="./MenuCliente">Regresar</a>
 </div>

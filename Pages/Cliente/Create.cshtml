@@ -1,11 +1,22 @@
 @page
 @model PeluqueiaStar.Pages_Cliente.CreateModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Create";
+    //bool activar = true;
+    //var identidadUsuario = UserManager.GetUserName(User);
 }
 
-<h4>Crear Nuevo Cliente</h4>
+<div>
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="6">Crear Nuevo Cliente</font>
+    </strong>
+    <br>
+</div><br><br>
+
 <hr />
 <div class="container">
     <div class="row">
@@ -86,8 +97,10 @@
 
 
 <div>
-    <a asp-page="Index">Lista Princicpal</a>
+    <a class="btn btn-success"  asp-page="MenuCliente">Lista Princicpal </a>
 </div>
+
+
 
 @section Scripts {
 @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

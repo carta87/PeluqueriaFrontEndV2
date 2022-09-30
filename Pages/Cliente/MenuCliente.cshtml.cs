@@ -11,12 +11,12 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace PeluqueiaStar.Pages_Cliente
 {
-    
-    public class IndexModel : PageModel
+    [Authorize]
+    public class MenuClienteModel : PageModel
     {
         private readonly PeluqueriaStarContext _context;
 
-        public IndexModel(PeluqueriaStarContext context)
+        public MenuClienteModel(PeluqueriaStarContext context)
         {
             _context = context;
         }
@@ -30,5 +30,27 @@ namespace PeluqueiaStar.Pages_Cliente
                 Cliente = await _context.Cliente.ToListAsync();
             }
         }
+
+        public async Task<IActionResult> OnPostAsync()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            _context.Attach(Cliente).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+            }
+
+            return RedirectToPage("./Index");
+        }
+
+         
     }
 }

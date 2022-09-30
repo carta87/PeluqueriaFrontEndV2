@@ -6,29 +6,25 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using PeluqueiaStar.Models;
-using Microsoft.AspNetCore.Authorization;
 
-
-namespace PeluqueiaStar.Pages_Cliente
+namespace PeluqueiaStar.Pages_ServiciosOfrecer
 {
-    
-    public class IndexModel : PageModel
+    public class ServiciosKidsModel : PageModel
     {
         private readonly PeluqueriaStarContext _context;
 
-        public IndexModel(PeluqueriaStarContext context)
+        public ServiciosKidsModel(PeluqueriaStarContext context)
         {
             _context = context;
         }
 
-        public IList<Cliente> Cliente { get;set; } = default!;
-
+        public IList<ServiciosOfrecer> ServiciosOfrecer { get;set; } = default!;
         public async Task OnGetAsync()
         {
-            if (_context.Cliente != null)
+            if (_context.ServiciosOfrecer != null)
             {
-                Cliente = await _context.Cliente.ToListAsync();
+                ServiciosOfrecer = await _context.ServiciosOfrecer.ToListAsync();
             }
-        }
+        }   
     }
 }

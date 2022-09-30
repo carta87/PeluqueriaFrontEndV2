@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "neVd0Q6OADeCw3aRRF95D5dy1abwI4Pce4icgNLdLPk=",
+  "Hash": "kBsJqvtuk0glO30Bh00fC1/E+wo+zPWKZMLHTfsBabI=",
   "Source": "PeluqueiaStar",
   "BasePath": "_content/PeluqueiaStar",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStarFrontEndV2\\PeluqueiaStar\\wwwroot\\img\\Estelista.jpg",
+      "SourceId": "PeluqueiaStar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStarFrontEndV2\\PeluqueiaStar\\wwwroot\\",
+      "BasePath": "_content/PeluqueiaStar",
+      "RelativePath": "img/Estelista.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Estelista.jpg"
     },
     {
       "Identity": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStarFrontEndV2\\PeluqueiaStar\\wwwroot\\img\\imagenHome.jpg",

@@ -5,7 +5,17 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Detalles Estelista</h1>
+
+
+<div >
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="6">Detalles Estelista</font>
+    </strong>
+    <br>
+   
+</div><br><br>
+
 
 <div>
     <hr />
@@ -55,6 +65,5 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Estelista?.Id">Editar</a> |
-    <a asp-page="./Index">Lista Princicpal</a>
+    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Model.Estelista?.Id">Editar</a>| <a class="btn btn-success" asp-page="./MenuEstilista">Regresar </a>
 </div>

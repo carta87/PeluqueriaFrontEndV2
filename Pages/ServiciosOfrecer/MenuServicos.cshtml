@@ -1,0 +1,39 @@
+@page
+@model PeluqueiaStar.Pages_ServiciosOfrecer.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="text-center">
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="6">Menu Servicios</font>
+    </strong>
+    <br>
+    <i><strong>
+            <p>Es un placer para nuestra entidad poder poner a su alcalce diferentes servicios que estan dirigidos para
+                diferentes clientes
+            </p>
+        </strong></i>
+</div><br><br>
+
+<div>
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="4">Escoga una categoria</font>
+    </strong>
+</div><br>
+
+<div class="form-check form-check-inline">
+    <label class="form-check-label" for="inlineRadio1"><a class="btn btn-primary" asp-page="ServiciosKids"><i
+                class="bi bi-journal-text"></i> Mostar servicios para kids</a></label>
+</div>
+<div class="form-check form-check-inline">
+    <label class="form-check-label" for="inlineRadio2"><a class="btn btn-primary" asp-page="ServiciosDama"><i
+                class="bi bi-journal-text"></i> Mostar servicios para Dama </a></label>
+</div>
+<div class="form-check form-check-inline">
+    <label class="form-check-label" for="inlineRadio3"> <a class="btn btn-primary" asp-page="ServiciosCaballero"><i
+                class="bi bi-journal-text"></i> Mostar servicios para caballero </a></label>
+</div>

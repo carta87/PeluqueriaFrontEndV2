@@ -5,7 +5,15 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Editar Cliente</h1>
+<div >
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="6">Editar Cliente</font>
+    </strong>
+    <br>
+   
+</div><br><br>
+
 
 <hr />
 <div class="row">
@@ -73,14 +81,14 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" /> | <a class="btn btn-success" asp-page="./MenuCliente">Regresar </a>
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-page="./Index">Lista Princicpal</a>
+    
 </div>
 
 @section Scripts {

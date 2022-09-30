@@ -65,7 +65,7 @@ namespace PeluqueiaStar.Pages_Estelista
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./MenuEstilista");
         }
 
         private bool EstelistaExists(int id)

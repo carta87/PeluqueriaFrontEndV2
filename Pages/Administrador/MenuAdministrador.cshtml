@@ -1,0 +1,132 @@
+@page
+@model PeluqueiaStar.Pages_Administrador.IndexModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+    bool activar = false;
+    foreach (var item in Model.Administrador)
+    {
+        if (UserManager.GetUserName(User) == item.Email)
+        {
+            activar = true;
+        }
+    }
+}
+@if (activar)
+{
+    <div class="text-center">
+        <br>
+        <strong>
+            <font face="Comic Sans MS,arial" style="color:indigo" size="6">Control central de la aplicacion</font>
+        </strong>
+        <br>
+        <i><strong>
+                <p>Cuando ingrese a cada menu Principal prodra realizar ingreso de cualquier perfil, modificacion y
+                    eliminacion.
+                </p>
+            </strong></i>
+    </div><br><br>
+
+    <div>
+        <br>
+        <strong>
+            <font face="Comic Sans MS,arial" style="color:indigo" size="4">Control usuaios App</font>
+        </strong>
+    </div><br>
+
+    <div class="form-check form-check-inline">
+        <label class="form-check-label" for="inlineRadio1"><a class="btn btn-primary" asp-page="Index"><i
+                class="bi bi-journal-text"></i> Menu Principal
+                Administrador
+            </a></label>
+    </div>
+    <div class="form-check form-check-inline">
+        <label class="form-check-label" for="inlineRadio2"><a class="btn btn-primary" asp-page="../Cliente/Index"><i
+                class="bi bi-journal-text"></i> Menu
+                Principal Cliente </a></label>
+    </div>
+    <div class="form-check form-check-inline">
+        <label class="form-check-label" for="inlineRadio3"> <a class="btn btn-primary" asp-page="../Estelista/Index"><i
+                class="bi bi-journal-text"></i> Menu
+                Principal Estelista </a></label>
+    </div>
+
+    <br><br><br><br><br>
+    <div>
+        <br>
+        <strong>
+            <font face="Comic Sans MS,arial" style="color:indigo" size="4">Control Operaciones App</font>
+        </strong>
+    </div><br>
+
+    <div class="form-check form-check-inline">
+        <label class="form-check-label" for="inlineRadio2"><a class="btn btn-primary"
+            asp-page="../HorarioEstelista/Index"><i class="bi bi-journal-text"></i> Menu
+                Principal Horaios Estelista
+            </a></label>
+    </div>
+    <div class="form-check form-check-inline">
+        <label class="form-check-label" for="inlineRadio3"> <a class="btn btn-primary"
+            asp-page="../ServiciosOfrecer/Index"><i class="bi bi-journal-text"></i> Menu
+                Principal Servicios App</a></label>
+    </div>
+    <!-- pruena de codigo
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p>
+                            <a class="btn btn-primary" asp-page="../HorarioEstelista/Index"><i class="bi bi-journal-text"></i> Menu
+                                Principal
+                                Horaios Estelista
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p>
+                            <a class="btn btn-primary" asp-page="../ServiciosOfrecer/Index"><i class="bi bi-journal-text"></i> Menu
+                                Servicios App</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <p>
+                            <a class="btn btn-primary" asp-page="Index"><i class="bi bi-journal-text"></i> Menu Principal
+                                Administrador
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <p>
+                            <a class="btn btn-primary" asp-page="../Cliente/Index"><i class="bi bi-journal-text"></i> Menu
+                                Principal Cliente </a>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <p>
+                            <img src="../../wwwroot/img/Logopeluqueria.png" alt="estelista">
+                            <a class="btn btn-primary" asp-page="../Estelista/Index"><i class="bi bi-journal-text"></i> Menu
+                                Principal
+                                Estelista </a>
+                        </p>
+                    </div>
+
+                </div>
+            </div> <br><br>-->
+}
+else
+{
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="4">Se requiere tener usuario de administrador para poder
+            ingresar</font>
+    </strong>
+    <br>
+    <br>
+
+}

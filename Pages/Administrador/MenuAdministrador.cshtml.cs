@@ -6,28 +6,25 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using PeluqueiaStar.Models;
-using Microsoft.AspNetCore.Authorization;
 
-
-namespace PeluqueiaStar.Pages_Cliente
+namespace PeluqueiaStar.Pages_Administrador
 {
-    
-    public class IndexModel : PageModel
+    public class MenuAdministradorModel : PageModel
     {
         private readonly PeluqueriaStarContext _context;
 
-        public IndexModel(PeluqueriaStarContext context)
+        public MenuAdministradorModel(PeluqueriaStarContext context)
         {
             _context = context;
         }
 
-        public IList<Cliente> Cliente { get;set; } = default!;
+        public IList<Administrador> Administrador { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            if (_context.Cliente != null)
+            if (_context.Administrador != null)
             {
-                Cliente = await _context.Cliente.ToListAsync();
+                Administrador = await _context.Administrador.ToListAsync();
             }
         }
     }

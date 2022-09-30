@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using PeluqueiaStar.Models;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PeluqueiaStar.Pages_Cliente
 {
@@ -19,7 +22,7 @@ namespace PeluqueiaStar.Pages_Cliente
         }
 
         public IActionResult OnGet()
-        {
+        {  
             return Page();
         }
 

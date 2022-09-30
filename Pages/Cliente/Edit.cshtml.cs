@@ -65,7 +65,7 @@ namespace PeluqueiaStar.Pages_Cliente
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./MenuCliente");
         }
 
         private bool ClienteExists(int id)

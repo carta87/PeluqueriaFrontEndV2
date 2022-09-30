@@ -1,0 +1,72 @@
+@page
+@using Models
+@model PeluqueiaStar.Pages_ServiciosOfrecer.IndexModel
+@{
+    ViewData["Title"] = "Index";
+    var dama = Models.Categoria.Dama;
+    //var caballero = Models.Categoria.Caballero;
+    //var kids = Models.Categoria.Kids;
+    //var result = 0;
+    //var num = 0;
+
+
+}
+
+
+<div >
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="6">Listado de Servicios para Dama</font>
+    </strong>
+    <br>
+   
+</div><br><br>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+                <thead style="text-align: center;">
+                    <tr>
+                        <th>
+                        @Html.DisplayNameFor(model => model.ServiciosOfrecer[0].Categoria)
+                        </th>
+                        <th>
+                        @Html.DisplayNameFor(model => model.ServiciosOfrecer[0].Descripcion)
+                        </th>
+                        <th>
+                        @Html.DisplayNameFor(model => model.ServiciosOfrecer[0].ValorServicio)
+                        </th>
+                        <th>
+                        @Html.DisplayNameFor(model => model.ServiciosOfrecer[0].Comentario)
+                        </th>
+
+                    </tr>
+                </thead>
+
+                <tbody>
+                @foreach (var item in Model.ServiciosOfrecer)
+                {
+                    @if (item.Categoria== @dama)
+                    {
+                            <tr style="text-align: center;">
+                                <td>
+                                @Html.DisplayFor(modelItem => item.Categoria)
+                                </td>
+                                <td>
+                                @Html.DisplayFor(modelItem => item.Descripcion)
+                                </td>
+                                <td>
+                                @Html.DisplayFor(modelItem => item.ValorServicio)
+                                </td>
+                                <td>
+                                @Html.DisplayFor(modelItem => item.Comentario)
+                                </td>
+
+                            </tr>
+
+                    }
+
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>

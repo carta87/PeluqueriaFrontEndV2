@@ -1,11 +1,18 @@
 @page
 @model PeluqueiaStar.Pages_Administrador.IndexModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+@if(UserManager.GetUserName(User)== "elkinaguirre@gmail.com")
+{
+<h1>estoy con privelegisode Administrador</h1>
+}
+
+
 
 <p>
     <a class="btn btn-primary" asp-page="Create"><i class="bi bi-journal-text"></i> Crear Administrador </a>

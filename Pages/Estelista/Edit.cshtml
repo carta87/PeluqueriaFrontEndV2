@@ -5,7 +5,15 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Editar Estelista</h1>
+<div >
+    <br>
+    <strong>
+        <font face="Comic Sans MS,arial" style="color:indigo" size="6">Editar Estelista</font>
+    </strong>
+    <br>
+   
+</div><br><br>
+
 
 <hr />
 <div class="row">
@@ -47,17 +55,15 @@
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Estelista.EstadoSalud" /> @Html.DisplayNameFor(model => model.Estelista.EstadoSalud)
                 </label>
-            </div>
+            </div><br>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" /> | <a class="btn btn-success" asp-page="./MenuEstilista">Regresar </a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-page="./Index">Lista Princicpal</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
