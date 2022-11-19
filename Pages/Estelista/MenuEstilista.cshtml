@@ -6,8 +6,9 @@
 @{
     ViewData["Title"] = "Index";
     bool activar = false;
+    var listEstelista = Model.Estelista;
     var identidadUsuario = UserManager.GetUserName(User);
-    foreach (var item in Model.Estelista)
+    foreach (var item in listEstelista)
     {
         if (identidadUsuario == item.Email)
         {
@@ -98,12 +99,52 @@
 }
 else
 {
-    <br>
-    <strong>
-        <font face="Comic Sans MS,arial" style="color:indigo" size="4">Se requiere tener perfil de usuario de Estilista para
-            poder
-            ingresar</font>
-    </strong>
-    <br>
-    <br>
+
+
+    <div class="text-center">
+        <br>
+        <strong>
+            <font face="Comic Sans MS,arial" style="color:indigo" size="6"> Listado de nuestros Estelistas</font>
+        </strong>
+        <br>
+        <br>
+
+    </div>
+
+    <div class="container"><br>
+        <div class="row">
+            <div class=" col-6 text-center"><br><br>
+                <img src="/img/peluqueira1.png" alt="" width="300px">
+            </div>
+
+            <div class="col-6">
+                <tbody>
+                    @foreach (var item in Model.Estelista)
+                    {
+                        @if (item.EstadoSalud)
+                        {
+                            <h4  style="color:indigo"> @Html.DisplayFor(modelItem => item.Nombre) @Html.DisplayFor(modelItem =>
+                    item.Apellidos)
+                            </h4>
+                            <span style="font: oblique bold 100% cursive;"> @Html.DisplayFor(modelItem => item.Celular)</span><br>
+                            <span style="font: oblique bold 100% cursive;"> @Html.DisplayFor(modelItem => item.Email)</span> <br> <br> 
+                        }
+
+                    }
+                </tbody>
+            </div>
+        </div>
+    </div>
+
+    <div >
+        <br>
+        <strong>
+            <font face="Comic Sans MS,arial" style="color:indigo" size="4"> Para ingresar al perfil de Estilista ingresa
+                <a asp-area="Identity" asp-page="/Account/Logout">aqui clik </a> 
+            </font>
+        </strong>
+        <br>
+        <br>
+
+    </div>
 }

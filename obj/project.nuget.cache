@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r3JXC5Aaa4jswJUCsre9EXWC359we11WO1WpZn5a+36j8lyNLJUqN3A0kxi+KB5ooE9gyjtGAcYo4akZw9Gd2g==",
+  "dgSpecHash": "Z2x/cOxv0baioQw+SUIV0zRC+Qe7P5tGgyzf94cZl1zjRMm/IbnfFFkW3bDKFmHCXe1yKn6EPJnPww2TwUh+pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStarFrontEndV2\\PeluqueiaStar\\PeluqueiaStar.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\Carlos\\Cursos Programacion\\MisionTic 2022\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStarFrontEndV2\\PeluqueiaStar\\PeluqueiaStar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
